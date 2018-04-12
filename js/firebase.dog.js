@@ -15,8 +15,7 @@ $("#btn-order").on("click", function (e) {
 
     var name = $("#name").val().trim();
     var phone = $("#phone").val().trim();
-    var order = $("#order").val().trim();
-    var address = $("#address").val().trim();
+    var email = $("#email").val().trim();
     if (name === '') {
         swal('Xin nhập thông tin đầy đủ');
         return;
@@ -25,29 +24,21 @@ $("#btn-order").on("click", function (e) {
         swal('Xin nhập thông tin đầy đủ');
         return;
     }
-    if (order === ''){
+    if (email === ''){
         swal('Xin nhập thông tin đầy đủ');
         return;
     }
-    if (address === '')
-    {
-        swal('Xin nhập thông tin đầy đủ');
-        return;
-    }
-
     formulario.push({
         name: name,
         phone: phone,
-        order: order,
-        address: address,
+        email: email,
         time: firebase.database.ServerValue.TIMESTAMP
     }, function (error) {
         if (error) {
             console.log(error);
-
             swal({
                 title: 'Error',
-                text: 'Xin thử lại lần sa',
+                text: 'Xin thử lại lần sau',
                 type: 'warning',
                 confirmButtonText: 'OK',
             }).then(function(result){

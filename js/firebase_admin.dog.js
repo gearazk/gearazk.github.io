@@ -41,9 +41,8 @@ lead = formulario.on('value',function (snap) {
     $.each(snap.val(),function (ke,el) {
         table_data.push([
             el.name,
-            el.order,
+            el.email,
             el.phone,
-            el.address,
         ])
     });
     data(table_data)
@@ -58,9 +57,8 @@ data = function (data) {
             data: data,
             columns: [
                 { title: "Name" },
-                { title: "Order" },
+                { title: "Email" },
                 { title: "Phone." },
-                { title: "Message" }
             ]
         } );
     }
