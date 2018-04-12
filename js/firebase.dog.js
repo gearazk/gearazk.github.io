@@ -1,12 +1,12 @@
 
 var config = {
-    apiKey: "AIzaSyDn_N25iM-njLMkRNopW5xZjoZNqaaFGCM",
-    authDomain: "everteelanding.firebaseapp.com",
-    databaseURL: "https://everteelanding.firebaseio.com",
-    projectId: "everteelanding",
-    storageBucket: "everteelanding.appspot.com",
-    messagingSenderId: "631125511190"
-};
+    apiKey: "AIzaSyDDPW5Pl7VM84E1FJzeCRxZ_qdR2xHME5g",
+    authDomain: "eighth-breaker-179415.firebaseapp.com",
+    databaseURL: "https://eighth-breaker-179415.firebaseio.com",
+    projectId: "eighth-breaker-179415",
+    storageBucket: "eighth-breaker-179415.appspot.com",
+    messagingSenderId: "222665463186"
+  };
 app = firebase.initializeApp(config);
 
 var formulario = firebase.database().ref();
