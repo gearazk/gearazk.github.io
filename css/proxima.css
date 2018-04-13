@@ -1,59 +1,59 @@
-/*!* cyrillic *!*/
-/*@font-face {*/
-  /*font-family: 'Proxima Nova';*/
-  /*font-style: italic;*/
-  /*font-weight: 400;*/
-  /*src: local('Proxima Nova Regular Italic'), local('ProximaNova-RegularIt'), url(https://fonts.gstatic.com/l/font?kit=dftp9UkVz-eHSE8kXLAH3ub988d5RHZc66psPc8fYGQ&skey=cf7b06949deecd8b&v=v10) format('woff2');*/
-  /*unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;*/
-/*}*/
-/*!* greek *!*/
-/*@font-face {*/
-  /*font-family: 'Proxima Nova';*/
-  /*font-style: italic;*/
-  /*font-weight: 400;*/
-  /*src: local('Proxima Nova Regular Italic'), local('ProximaNova-RegularIt'), url(https://fonts.gstatic.com/l/font?kit=dftp9UkVz-eHSE8kXLAH3u8gdcbe1uXYy3IegjxQw6I&skey=cf7b06949deecd8b&v=v10) format('woff2');*/
-  /*unicode-range: U+0370-03FF;*/
-/*}*/
-/*!* vietnamese *!*/
-/*@font-face {*/
-  /*font-family: 'Proxima Nova';*/
-  /*font-style: italic;*/
-  /*font-weight: 400;*/
-  /*src: local('Proxima Nova Regular Italic'), local('ProximaNova-RegularIt'), url(https://fonts.gstatic.com/l/font?kit=dftp9UkVz-eHSE8kXLAH3qsS_UXHGv3lrGCBFbMisL8&skey=cf7b06949deecd8b&v=v10) format('woff2');*/
-  /*unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;*/
-/*}*/
-/*!* latin-ext *!*/
-/*@font-face {*/
-  /*font-family: 'Proxima Nova';*/
-  /*font-style: italic;*/
-  /*font-weight: 400;*/
-  /*src: local('Proxima Nova Regular Italic'), local('ProximaNova-RegularIt'), url(https://fonts.gstatic.com/l/font?kit=dftp9UkVz-eHSE8kXLAH3sAbIeegqMtwkwn2ZHUR4Nk&skey=cf7b06949deecd8b&v=v10) format('woff2');*/
-  /*unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;*/
-/*}*/
+/* cyrillic */
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Proxima Nova Regular Italic'), local('ProximaNova-RegularIt'), url(https://fonts.gstatic.com/l/font?kit=dftp9UkVz-eHSE8kXLAH3ub988d5RHZc66psPc8fYGQ&skey=cf7b06949deecd8b&v=v10) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+ /*greek */
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Proxima Nova Regular Italic'), local('ProximaNova-RegularIt'), url(https://fonts.gstatic.com/l/font?kit=dftp9UkVz-eHSE8kXLAH3u8gdcbe1uXYy3IegjxQw6I&skey=cf7b06949deecd8b&v=v10) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+ /*vietnamese */
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Proxima Nova Regular Italic'), local('ProximaNova-RegularIt'), url(../fonts/font.vn.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+ /*latin-ext*/
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Proxima Nova Regular Italic'), local('ProximaNova-RegularIt'), url(../fonts/font.latini.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
 /*!* latin *!*/
-/*@font-face {*/
-  /*font-family: 'Proxima Nova';*/
-  /*font-style: italic;*/
-  /*font-weight: 400;*/
-  /*src: local('Proxima Nova Regular Italic'), local('ProximaNova-RegularIt'), url(https://fonts.gstatic.com/l/font?kit=dftp9UkVz-eHSE8kXLAH3hMBlNeli-0RcAdOFWWLdxQ&skey=cf7b06949deecd8b&v=v10) format('woff2');*/
-  /*unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;*/
-/*}*/
-/*!* cyrillic *!*/
-/*@font-face {*/
-  /*font-family: 'Proxima Nova';*/
-  /*font-style: italic;*/
-  /*font-weight: 700;*/
-  /*src: local('Proxima Nova Bold Italic'), local('ProximaNova-BoldIt'), url(https://fonts.gstatic.com/l/font?kit=q-nQIMXO1ya9XJ9pGgSbyzaggPqPUlqZtH2DnDrcMQE&skey=b4833ce002cd81b5&v=v10) format('woff2');*/
-  /*unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;*/
-/*}*/
-/*!* greek *!*/
-/*@font-face {*/
-  /*font-family: 'Proxima Nova';*/
-  /*font-style: italic;*/
-  /*font-weight: 700;*/
-  /*src: local('Proxima Nova Bold Italic'), local('ProximaNova-BoldIt'), url(https://fonts.gstatic.com/l/font?kit=q-nQIMXO1ya9XJ9pGgSby4oaZ3JCuOCfGInl-4mJ72g&skey=b4833ce002cd81b5&v=v10) format('woff2');*/
-  /*unicode-range: U+0370-03FF;*/
-/*}*/
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Proxima Nova Regular Italic'), local('ProximaNova-RegularIt'), url(../fonts/font_ltin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Proxima Nova Bold Italic'), local('ProximaNova-BoldIt'), url(https://fonts.gstatic.com/l/font?kit=q-nQIMXO1ya9XJ9pGgSbyzaggPqPUlqZtH2DnDrcMQE&skey=b4833ce002cd81b5&v=v10) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+ /*greek */
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Proxima Nova Bold Italic'), local('ProximaNova-BoldIt'), url(https://fonts.gstatic.com/l/font?kit=q-nQIMXO1ya9XJ9pGgSby4oaZ3JCuOCfGInl-4mJ72g&skey=b4833ce002cd81b5&v=v10) format('woff2');
+  unicode-range: U+0370-03FF;
+}
 /*!* vietnamese *!*/
 @font-face {
   font-family: 'Proxima Nova';
@@ -62,99 +62,99 @@
   src: local('Proxima Nova Bold Italic'), local('ProximaNova-BoldIt'), url('../fonts/font.woff2') format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
 }
-/*!* latin-ext *!*/
-/*@font-face {*/
-  /*font-family: 'Proxima Nova';*/
-  /*font-style: italic;*/
-  /*font-weight: 700;*/
-  /*src: local('Proxima Nova Bold Italic'), local('ProximaNova-BoldIt'), url(https://fonts.gstatic.com/l/font?kit=q-nQIMXO1ya9XJ9pGgSby-R3LJ09PnibSpWhv21tZ8w&skey=b4833ce002cd81b5&v=v10) format('woff2');*/
-  /*unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;*/
-/*}*/
-/*!* latin *!*/
-/*@font-face {*/
-  /*font-family: 'Proxima Nova';*/
-  /*font-style: italic;*/
-  /*font-weight: 700;*/
-  /*src: local('Proxima Nova Bold Italic'), local('ProximaNova-BoldIt'), url(https://fonts.gstatic.com/l/font?kit=q-nQIMXO1ya9XJ9pGgSby0cqRxak6Wc5LUVz-l064SE&skey=b4833ce002cd81b5&v=v10) format('woff2');*/
-  /*unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;*/
-/*}*/
-/*!* cyrillic *!*/
-/*@font-face {*/
-  /*font-family: 'Proxima Nova';*/
-  /*font-style: normal;*/
-  /*font-weight: 400;*/
-  /*src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url(https://fonts.gstatic.com/l/font?kit=3qINvnjb346LubKDfLRn65X5f-9o1vgP2EXwfjgl7AY&skey=96867d716c89840e&v=v10) format('woff2');*/
-  /*unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;*/
-/*}*/
-/*!* greek *!*/
-/*@font-face {*/
-  /*font-family: 'Proxima Nova';*/
-  /*font-style: normal;*/
-  /*font-weight: 400;*/
-  /*src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url(https://fonts.gstatic.com/l/font?kit=3qINvnjb346LubKDfLRn66aRobkAwv3vxw3jMhVENGA&skey=96867d716c89840e&v=v10) format('woff2');*/
-  /*unicode-range: U+0370-03FF;*/
-/*}*/
-/*!* vietnamese *!*/
-/*@font-face {*/
-  /*font-family: 'Proxima Nova';*/
-  /*font-style: normal;*/
-  /*font-weight: 400;*/
-  /*src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url(https://fonts.gstatic.com/l/font?kit=3qINvnjb346LubKDfLRn6_8zf_FOSsgRmwsS7Aa9k2w&skey=96867d716c89840e&v=v10) format('woff2');*/
-  /*unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;*/
-/*}*/
-/*!* latin-ext *!*/
-/*@font-face {*/
-  /*font-family: 'Proxima Nova';*/
-  /*font-style: normal;*/
-  /*font-weight: 400;*/
-  /*src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url(https://fonts.gstatic.com/l/font?kit=3qINvnjb346LubKDfLRn6z0LW-43aMEzIO6XUTLjad8&skey=96867d716c89840e&v=v10) format('woff2');*/
-  /*unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;*/
-/*}*/
-/*!* latin *!*/
-/*@font-face {*/
-  /*font-family: 'Proxima Nova';*/
-  /*font-style: normal;*/
-  /*font-weight: 400;*/
-  /*src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url(https://fonts.gstatic.com/l/font?kit=3qINvnjb346LubKDfLRn6-gdm0LZdjqr5-oayXSOefg&skey=96867d716c89840e&v=v10) format('woff2');*/
-  /*unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;*/
-/*}*/
-/*!* cyrillic *!*/
-/*@font-face {*/
-  /*font-family: 'Proxima Nova';*/
-  /*font-style: normal;*/
-  /*font-weight: 700;*/
-  /*src: local('Proxima Nova Bold'), local('ProximaNova-Bold'), url(https://fonts.gstatic.com/l/font?kit=23obpnVGtF-BQtnUAejuY9kZ6ofoXFVR94fBb90XSvU&skey=470ea9b7edd795d7&v=v10) format('woff2');*/
-  /*unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;*/
-/*}*/
-/*!* greek *!*/
-/*@font-face {*/
-  /*font-family: 'Proxima Nova';*/
-  /*font-style: normal;*/
-  /*font-weight: 700;*/
-  /*src: local('Proxima Nova Bold'), local('ProximaNova-Bold'), url(https://fonts.gstatic.com/l/font?kit=23obpnVGtF-BQtnUAejuY7Y42KghHoOJT8APv0kV5JI&skey=470ea9b7edd795d7&v=v10) format('woff2');*/
-  /*unicode-range: U+0370-03FF;*/
-/*}*/
-/*!* vietnamese *!*/
-/*@font-face {*/
-  /*font-family: 'Proxima Nova';*/
-  /*font-style: normal;*/
-  /*font-weight: 700;*/
-  /*src: local('Proxima Nova Bold'), local('ProximaNova-Bold'), url(https://fonts.gstatic.com/l/font?kit=23obpnVGtF-BQtnUAejuYxleLRUdNWOtq4SldHKv7HI&skey=470ea9b7edd795d7&v=v10) format('woff2');*/
-  /*unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;*/
-/*}*/
-/*!* latin-ext *!*/
-/*@font-face {*/
-  /*font-family: 'Proxima Nova';*/
-  /*font-style: normal;*/
-  /*font-weight: 700;*/
-  /*src: local('Proxima Nova Bold'), local('ProximaNova-Bold'), url(https://fonts.gstatic.com/l/font?kit=23obpnVGtF-BQtnUAejuY-IaMZP5eRGvEWe_CNIU_oY&skey=470ea9b7edd795d7&v=v10) format('woff2');*/
-  /*unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;*/
-/*}*/
-/*!* latin *!*/
-/*@font-face {*/
-  /*font-family: 'Proxima Nova';*/
-  /*font-style: normal;*/
-  /*font-weight: 700;*/
-  /*src: local('Proxima Nova Bold'), local('ProximaNova-Bold'), url(https://fonts.gstatic.com/l/font?kit=23obpnVGtF-BQtnUAejuY3NuWYKPzoeKl5tYj8yhly0&skey=470ea9b7edd795d7&v=v10) format('woff2');*/
-  /*unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;*/
-/*}*/
+ /*latin-ext*/
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Proxima Nova Bold Italic'), local('ProximaNova-BoldIt'), url(https://fonts.gstatic.com/l/font?kit=q-nQIMXO1ya9XJ9pGgSby-R3LJ09PnibSpWhv21tZ8w&skey=b4833ce002cd81b5&v=v10) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Proxima Nova Bold Italic'), local('ProximaNova-BoldIt'), url(../fonts/font10.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+ /*cyrillic*/
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url(https://fonts.gstatic.com/l/font?kit=3qINvnjb346LubKDfLRn65X5f-9o1vgP2EXwfjgl7AY&skey=96867d716c89840e&v=v10) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url(https://fonts.gstatic.com/l/font?kit=3qINvnjb346LubKDfLRn66aRobkAwv3vxw3jMhVENGA&skey=96867d716c89840e&v=v10) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url(../fonts/font8.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url(../fonts/font9.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+ /*latin*/
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url(../fonts/font7.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Proxima Nova Bold'), local('ProximaNova-Bold'), url(https://fonts.gstatic.com/l/font?kit=23obpnVGtF-BQtnUAejuY9kZ6ofoXFVR94fBb90XSvU&skey=470ea9b7edd795d7&v=v10) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Proxima Nova Bold'), local('ProximaNova-Bold'), url(https://fonts.gstatic.com/l/font?kit=23obpnVGtF-BQtnUAejuY7Y42KghHoOJT8APv0kV5JI&skey=470ea9b7edd795d7&v=v10) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Proxima Nova Bold'), local('ProximaNova-Bold'), url(../fonts/font6.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Proxima Nova Bold'), local('ProximaNova-Bold'), url(../fonts/font4.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Proxima Nova Bold'), local('ProximaNova-Bold'), url(../fonts/font5.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
