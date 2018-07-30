@@ -9,7 +9,7 @@ var config = {
 };
 app = firebase.initializeApp(config);
 
-var formulario = firebase.database().ref('buy');
+var formulario = firebase.database().ref('signup');
 
 
 $('#logout').hide();
@@ -43,8 +43,7 @@ lead = formulario.on('value',function (snap) {
       el.name,
       el.address,
       el.phone,
-      el.prod_1,
-      el.prod_2
+      el.email,
     ])
   });
   data(table_data)
@@ -61,8 +60,7 @@ data = function (data) {
         { title: "Name" },
         { title: "Address" },
         { title: "Phone." },
-        { title: "TÚI THAN KHỬ MÙI TỦ LẠNH" },
-        { title: "HỘP THAN KHỬ MÙI ĐA NĂNG" }
+        { title: "Email" },
       ]
     } );
   }

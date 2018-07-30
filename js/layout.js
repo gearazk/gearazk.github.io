@@ -38,19 +38,34 @@ $(document).ready(function (e) {
       $('#chat').show('slow');
     }
   });
-  setTimeout(function () {
-    $('#imagemodal').modal({})
-    new Swiper('.swiper-container-popup', {
-      slidesPerView: 1,
-      spaceBetween: 40,
-      loop: true,
-      centeredSlides: true,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-  }, 3000);
+  $('#deal').on('click',function () {$('#deal_popup').modal()});
+  $('.btn-buy').on('click',function () {$('#buy_popup').modal()});
+  $('#btn-buy').on('click',function () {
+    $('#deal_popup').modal('hide');
+    setTimeout(function () {
+      $('#buy_popup').modal();
+    }, 400);
+  });
+  $('#btn-signup').on('click',function () {
+    $('#deal_popup').modal('hide');
+    setTimeout(function () {
+      $('#signup_popup').modal();
+    }, 400);
+  });
+  
+  // setTimeout(function () {
+  //   $('#imagemodal').modal({})
+  //   new Swiper('.swiper-container-popup', {
+  //     slidesPerView: 1,
+  //     spaceBetween: 40,
+  //     loop: true,
+  //     centeredSlides: true,
+  //     navigation: {
+  //       nextEl: '.swiper-button-next',
+  //       prevEl: '.swiper-button-prev',
+  //     },
+  //   });
+  // }, 3000);
   $('.js-scroll-trigger').on('click',function (e) {
     var fill = $(this).data('value');
     $('#name').focus();
