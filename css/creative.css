@@ -77,15 +77,14 @@ h5.price{font-weight:600;color:#f9bd37 !important;}
     padding: 10px 80px;
 }
 #chat{
-
     display: none;
 }
 
 #fb-message{
-    bottom: 10px;
-    z-index: 1000;
+    bottom:80px;
+    z-index: 10001;
     position: fixed;
-    right: 30px;
+    right: 10px;
 }
 textarea.form-control{border-radius: 1em}
 .bg-img{width:100%;}
